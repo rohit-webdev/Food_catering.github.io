@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Epsilon Catering and Food</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav>
+        <div class="logo-item">
+            <p><a href="#" class="logo">Epsilon Catering</a></p>
+        </div>
+        <ul class="menu-items" id="menu">
+            <li><a href="#" id = 'list'>Home</a></li>
+            <li><a href="#about" id = 'list'>About</a></li>
+            <li><a href="#men" id = 'list'>Menu</a></li>
+            <li><a href="#contact" id = 'list'>Contact</a></li>
+        </ul>
+        <div class="hamburger" id="bar">
+            <div class="lines line1"></div>
+            <div class="lines line2"></div>
+            <div class="lines line3"></div>
+        </div>
+    </nav>
+    <!-- navbar -->
+
+    <!-- modal -->
+    <div class="modal" id="modal">
+        <p class="message">Message has been sent. <br>Have a nice day...🙂</p>
+    </div>
+    <!-- modal -->
+
+    <!-- hero section -->
+    <div class="hero-section">
+        <h3 class="title">Taste Delicious</h3>
+    </div>
+    <!-- hero section -->
+
+    <!-- About -->
+    <div class="about" id="about">
+        <img src="./images/tablesetting2.jpg" alt="about image">
+        <div class="about_content">
+            <p class="about-title">About Catering</p>
+            <p class="about-subtitle">Tradition since 1889</p>
+            <p class="about-para">The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet,
+                consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur.We only use <span>seasonal</span> ingredients.</p>
+            <p class="light">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat.</p>
+        </div>
+    </div>
+    <!-- About -->
+
+    <!-- Menu -->
+    <div class="section" id="men">
+        <div class="section-content">
+            <p class="section-title">Our Menu</p>
+            <div class="menu-list">
+                <p class="list-title">Bread Basket</p>
+                <p class="list-name">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                <p class="list-title">Honey Almond Granola with Fruits</p>
+                <p class="list-name">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p>
+                <p class="list-title">Belgian Waffle</p>
+                <p class="list-name">Vanilla flavored batter with malted flour 7.50
+                </p>
+                <p class="list-title">Scrambled eggs</p>
+                <p class="list-name">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                <p class="list-title">Blueberry Pancakes</p>
+                <p class="list-name">With syrup, butter and lots of berries 8.50</p>
+            </div>
+        </div>
+        <img src="./images/tablesetting.jpg" alt="menu image" class="menu-image">
+    </div>
+    <!-- menu -->
+
+    <!-- contact -->
+    <div class="section" id="contact">
+        <div class="section-content">
+            <p class="section-title">Contact</p>
+            <p class="con1">We offer full-service catering for any event, large or small. We understand your needs and
+                we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not
+                hesitate to contact us.</p>
+            <p class="address">Catering Service, 42nd Living St, 43043 Bengaluru, Kar</p>
+            <p class='con2'>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can
+                send us a message here:
+            </p>
+            <form>
+                <input type="text" class="name" placeholder="Name" required id="name">
+                <input type="email" placeholder="catering@gmail.com" id="email">
+                <div>
+                    <input type="number" class="number" placeholder="How many people" required id="number">
+                    <input placeholder="12/12/2021 1:59 PM" type="text" onfocus="(this.type = 'datetime-local')"
+                        id="date" required>
+                </div>
+                <textarea placeholder="Message/Special Requirements" required id="textarea"></textarea>
+                <button type="submit" id="submit">Send Message</button>
+            </form>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d497698.6600807482!2d77.3507360600429!3d12.954517008209272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1639299326743!5m2!1sen!2sin"
+            width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <!-- contact -->
+
+    <!-- creater modal -->
+    <div class="AboutContainer">
+        <div class="herosection">
+            <img src="./images/hero.png" alt="hero image" class="herologo"/>
+            <div class="hero-intro">
+                <h1 class="hero-title">About Creater</h1>
+                <p class='intro'>Meet the creater <span>&#8216;Rohit&#8217;</span></p>
+                <p class='details'>Currently, Pursuing B-Tech UG course on <u>Electronics and Communication
+                        Engineering (ECE)</u> in <i>Reva University, Bangalore.</i> Moving ahead to take a internship in
+                    <i>Epsilon</i> Company from Jan. I love to create the websites using the core <b>HTML5, Css3,
+                        Javascript</b> and also by using the <b>Reactjs</b> framework. I also creates the apps with the
+                    help of <b>React-Native.</b> Basically, I am a Front-End Dev.</p>
+            </div>
+        </div>
+    </div>
+        <!-- creator modal -->
+
+        <!-- footer -->
+        <footer>
+            <p>Copyright issued &copy; 2021</p>
+        </footer>
+        <!-- footer -->
+</body>
+
+<script src="./index.js"></script>
+
+</html>
